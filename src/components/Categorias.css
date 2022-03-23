@@ -1,0 +1,47 @@
+.Categorias{
+    
+    width: 100vw;
+    height: 72vh;
+    display: block;
+    justify-content: center;
+}
+
+.button {
+    width: 80%;
+    margin: 10px;
+    margin-left: 8rem;
+    margin-top: 10px;
+    background: rgb(32, 29, 29);
+    color: white;
+    padding: 1.2rem;
+    border-radius: 15px;
+    border-color: #F60B8A;
+    border-width: 2px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Categorias li{
+    color:white;
+}
+
+.Categorias.active {
+    opacity: 1;
+    width: 79.5%;
+    height: 80px;
+    margin-left: 8rem;
+}
+.Categorias.inactive {
+    display:none;
+}
+
+.play{
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
